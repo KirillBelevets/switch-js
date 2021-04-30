@@ -8,7 +8,7 @@ Person.prototype.introduce = function(){
 };
 
 function myNew (Constructor, ...args) {
-    return new Person(...args)
+    return new Constructor(...args)
 }
 
 let john = new Person('John', 30);
